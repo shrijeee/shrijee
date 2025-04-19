@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #041c5c;
+    color: #d8c55c;
+}
+
+header {
+    background-color: #220a50;
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fffefe;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f4ee;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: #4682B4; /* Steel Blue */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6495ED; /* Cornflower Blue */
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('bag.jpg'); /* Replace with a full image */
+    background-size: cover;
+    color: #fdfbfb;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f39c12; /* Orange */
+    color: #fff9f9;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e67e22; /* Darker Orange */
+}
+
+.featured-paintings {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.paintings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.painting {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(255, 253, 253, 0.1);
+}
+
+.painting img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.painting h3 {
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
