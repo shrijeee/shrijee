@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seminar Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Seminar Registration</h2>
+    <form action="#" method="post">
+        <div class="input-box">
+            <i class="fas fa-user"></i>
+            <input type="text" name="name" placeholder="Enter your Name" required>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-id-badge"></i>
+            <input type="text" name="usn" placeholder="Enter your USN" required>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" placeholder="Enter your Email" required>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-building"></i>
+            <select name="branch" required>
+                <option value="">Select your Branch</option>
+                <option value="CSE">CSE</option>
+                <option value="AI_ML">AI ML</option>
+                <option value="AI_DS">AI DS</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Mechanical">Mechanical</option>
+            </select>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-venus-mars"></i>
+            <select name="gender" required>
+                <option value="">Select your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-calendar"></i>
+            <input type="text" name="year" placeholder="Enter your Year (e.g., 2nd, 3rd)" required>
+        </div>
+        <div class="input-box">
+            <i class="fas fa-book-open"></i>
+            <input type="text" name="semester" placeholder="Enter your Semester (e.g., 4th, 6th)" required>
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>
